@@ -11,6 +11,7 @@ The Operator is a tool designed for educational purposes and personal stream enh
 **ETHICAL GUIDELINES:**
 The Operator is intended to function as a co-pilot, not a deceptive entity. We recommend disclosing to your audience that you are experimenting with AI-driven community tools to maintain full transparency and trust with your viewers.
 
+This tool uses Twitch's anonymous justinfan IRC connection protocol to read chat data. This is a read-only, non-participatory connection method that does not mimic human users or inflate chat activity. It is used solely for data-gathering purposes.
 
 
 
