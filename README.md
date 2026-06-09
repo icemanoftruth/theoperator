@@ -32,6 +32,7 @@ Python
 import pyautogui, time
 time.sleep(4)
 print(pyautogui.position())
+
 Immediately hover your mouse cursor directly over the Twitch chat text box and leave it there for 4 seconds.
 
 The console will print your coordinates (e.g., Point(x=1450, y=920)).
@@ -44,7 +45,7 @@ CHAT_BOX_Y = 920
 
 Step 5: Run The Operator
 Make sure your Twitch chat window is visible on the screen where you mapped the coordinates.
-Run the bot from your terminal:
+Run the bot from your terminal or open command prompt as administrator:
 
 Bash
 python theoperator.py
