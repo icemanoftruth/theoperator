@@ -327,7 +327,8 @@ def run_twitch_irc_inbound_stream():
     
     try:
         irc.connect((server, port))
-        irc.send(f"NICK justinfan99281\n".encode('utf-8'))
+        anonymous_user = f"justinfan{random.randint(10000, 99999)}"
+        irc.send(f"NICK {anonymous_user}\n".encode('utf-8'))
         irc.send(f"JOIN #{TWITCH_CHANNEL}\n".encode('utf-8'))
     except Exception as e:
         print(f"[-] IRC Gateway Error: {e}")
