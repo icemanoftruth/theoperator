@@ -1,10 +1,14 @@
 Step 1: Download the AI Brain
+
+Download Ollama https://ollama.com/
+
 Make sure the Ollama application is running in your system tray.
 
 Open your command prompt or terminal and paste this command:
 
 Bash
 ollama run llama3:8b
+
 Let it download (it should take a fraction of the time). Once it says "success" and gives you a >>> prompt, type /bye and hit Enter to exit the chat interface. The model is now cached on your PC.
 
 Step 2: Update the Python Script
