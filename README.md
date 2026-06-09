@@ -8,21 +8,17 @@ ollama run llama3:8b
 Let it download (it should take a fraction of the time). Once it says "success" and gives you a >>> prompt, type /bye and hit Enter to exit the chat interface. The model is now cached on your PC.
 
 Step 2: Update the Python Script
-Open your Python script (e.g., operator.py) in your text editor and change these specific lines at the top of the file:
+Open your Python script (e.g., theoperator.py) in your text editor and change this specific line at the top of the file:
 
-Change the Model:
-Find OLLAMA_MODEL = "llama3:8b" and change it to:
-
-Python
-OLLAMA_MODEL = "llama3:8b"
 Set Your Channel:
-Find TWITCH_CHANNEL = "your_channel_name_here" and type your exact Twitch username in all lowercase (e.g., "ninja").
+Find TWITCH_CHANNEL = "your_channel_name_here" and type your exact Twitch username in all lowercase (e.g., "icemanoftruth").
 
 Step 3: Install Python Dependencies
 Open a fresh command prompt and run this command to install the specific libraries the script needs for transcription, audio loopback, and keyboard/mouse control:
 
 Bash
 pip install faster-whisper pyaudiowpatch pyautogui pyperclip
+
 Step 4: Calibrate the Chat Box Coordinates
 The bot needs to know exactly where your Twitch "Send Message" box is on your screen so it can physically click it.
 
